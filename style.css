@@ -41,6 +41,22 @@
   padding-block: 2rem;
   background-color: var(--lightColor);
 }
+.header .menu .btn-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header .menu .btn-cart > span {
+  display: block;
+  font-size: 1rem;
+}
+.header .menu .btn-cart button {
+  display: block;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
 
 /* BANNER */
 .banner {
